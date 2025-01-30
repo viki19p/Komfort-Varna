@@ -1,0 +1,68 @@
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комфорт Варна</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        main {
+            padding: 20px;
+        }
+        .image-container {
+            margin: 20px auto;
+            width: 80%;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .image-container p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Комфорт Варна
+    </header>
+    <main>
+        <h1>Добре дошли в Комфорт Варна!</h1>
+        <p>Най-добрия клуб за развиване на деца от ранна детска възраст</p>
+        
+        <div class="image-container">
+            <img src="image1.jpg" alt="Уютна стая">
+            <p>Уютна и комфортна стая за вашата почивка.</p>
+        </div>
+        
+        <div class="image-container">
+            <img src="image2.jpg" alt="Ресторант с панорамен изглед">
+            <p>Ресторант с невероятен изглед към морето.</p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Комфорт Варна. Всички права запазени.
+    </footer>
+</body>
+</html>
